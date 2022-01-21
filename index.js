@@ -12,7 +12,7 @@ client.config = configs;
 // DEMARRER LE BOT
 /////////////////////////////////////////////////////
 
-client.login(TOKEN)
+client.login(process.env.TOKEN)
   .then(
     () => {
       console.log("Bot démarré");
